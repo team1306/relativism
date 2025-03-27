@@ -7,7 +7,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await windowManager.ensureInitialized();
-  WindowManager.instance.setMinimumSize(const Size(400, 300));
+  WindowManager.instance.setMinimumSize(const Size(800, 600));
   WindowManager.instance.setTitle("Relativism -- Relative Variables");
 
   runApp(const RelativismApp());
